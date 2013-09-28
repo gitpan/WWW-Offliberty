@@ -1,0 +1,42 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 7412f0bb35fabf298a1bcf256ffe7942cae19786 Changes
+SHA1 8c1c0a4bf48a28e734b9be4671cad9d096b3e420 MANIFEST
+SHA1 76f68cd5bd43b3591ed4cb45f63402d3e0a1099c META.json
+SHA1 9b057d8a91c2085f612d59cb36b5d4248f88b989 META.yml
+SHA1 7600e97950bc7bcd909e4cacc804c4125f13b48b Makefile.PL
+SHA1 ac1ed454f4e0beeb394773ee0a1bc0f49aa14b1f README
+SHA1 6a1e739cb018e89fa68039b7a9535492dbd37785 lib/WWW/Offliberty.pm
+SHA1 0775bd648c8550f9ad0b0f663f87bb416b839c99 t/00-load.t
+SHA1 d439db0031949388305532ae2639d2d3430362ad t/50-network.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+iQIcBAEBAgAGBQJSR0FqAAoJEMoENb5ewbNiX8UQAIK/E+bMczE23nDL/ApdIMsU
+RV3XlO4/xjnufi5oqCudDvpDTkh175dvtTQD2lD2RcOu2ZjhW5RMY71GRoGPVU3w
+ImzKNVU8dPoWHdsXYFoTSIdexw/hp1FMjH+5bcp4kQ9c9jdvF9LV6w2eG+o2hp8r
+7sf6f58UOXq1HpYMmOYgzkepYWE7m32tMvFTVDCkJu+ts7RfYuQHN1kB/64d2PPT
+vnY2WmB0RvLcbEGeQ+emgZ1c+V5R0R9EmhyEoXXfpXxuK8A7hmWzdafQ46ahDLpk
+lmtpB7nbvKGb/Qkq67vuG14KqmE5xT8Q2xipclmVQ1ovHxAnjpH2GxIGj0xT2H2l
+EQY6Uskxo78XQQ3Ids813Z+dXaUaW1CBhVNKOLokNgqHZ5pSvug0/Vp5akJtESAp
+MGd5gNC8yRwBgTmoqcNGoeUcoj9lIYaaHH5hQoSqd3PTHEZZ57jstzZKq7OjGvev
+ddRvqvSVFDK6dmcmfYcZVdT8rXlgUWy4mPqd7hJHrav5Q6JJ7KJwc5AUBmwoJ7FU
+OhpnF0pitGYNwwj3CaPKDgmNEDUEjW4cmDNJcE7rA1hYh0SJRCNUtqdVrTRbv59T
+byn6HDGkOm9Nr3KWzX0c3IdO00RMzxqnfp+BMRYxhdnO6gj30OCsNfyH0EVcdqvA
+iyQAzK5n+oPtehgs7MsO
+=X7P9
+-----END PGP SIGNATURE-----
