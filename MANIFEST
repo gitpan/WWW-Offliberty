@@ -2,6 +2,7 @@ Changes
 Makefile.PL
 MANIFEST
 README
+off
 t/00-load.t
 t/50-network.t
 lib/WWW/Offliberty.pm

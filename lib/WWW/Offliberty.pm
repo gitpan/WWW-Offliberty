@@ -4,7 +4,7 @@ use 5.014;
 use strict;
 use warnings;
 use parent qw/Exporter/;
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 our @EXPORT_OK = qw/off/;
 
 use HTML::TreeBuilder;
@@ -13,10 +13,10 @@ use LWP::UserAgent;
 my $ua = LWP::UserAgent->new;
 
 sub off{
-  my ($url, @params) = @_;
-  my $content = $ua->post("http://offliberty.com/off.php", {track => $url, @params})->decoded_content;
-  my $root = HTML::TreeBuilder->new_from_content($content);
-  map { $_->attr('href') } $root->look_down(qw/_tag a class download/);
+	my ($url, @params) = @_;
+	my $content = $ua->post("http://offliberty.com/off54.php", {track => $url, @params})->decoded_content;
+	my $root = HTML::TreeBuilder->new_from_content($content);
+	map { $_->attr('href') } $root->look_down(qw/_tag a class download/);
 }
 
 1;
